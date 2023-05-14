@@ -1,0 +1,53 @@
+|Ejercicio3_Lab2
+A[0] => LPM_COMPARE:comparador.DATAA[0]
+A[1] => LPM_COMPARE:comparador.DATAA[1]
+A[2] => LPM_COMPARE:comparador.DATAA[2]
+B[0] => LPM_COMPARE:comparador.DATAB[2]
+B[1] => LPM_COMPARE:comparador.DATAB[1]
+B[2] => LPM_COMPARE:comparador.DATAB[0]
+displayComp[6] <= <VCC>
+displayComp[5] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+displayComp[4] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+displayComp[3] <= <VCC>
+displayComp[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+displayComp[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+displayComp[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+activadorDisplayComp <= <VCC>
+
+
+|Ejercicio3_Lab2|LPM_COMPARE:comparador
+dataa[0] => cmpr_cii:auto_generated.dataa[0]
+dataa[1] => cmpr_cii:auto_generated.dataa[1]
+dataa[2] => cmpr_cii:auto_generated.dataa[2]
+datab[0] => cmpr_cii:auto_generated.datab[0]
+datab[1] => cmpr_cii:auto_generated.datab[1]
+datab[2] => cmpr_cii:auto_generated.datab[2]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+alb <= cmpr_cii:auto_generated.alb
+aeb <= cmpr_cii:auto_generated.aeb
+agb <= cmpr_cii:auto_generated.agb
+aleb <= <GND>
+aneb <= <GND>
+ageb <= <GND>
+
+
+|Ejercicio3_Lab2|LPM_COMPARE:comparador|cmpr_cii:auto_generated
+aeb <= aeb_int.DB_MAX_OUTPUT_PORT_TYPE
+agb <= agb.DB_MAX_OUTPUT_PORT_TYPE
+alb <= alb_int.DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => _.IN0
+dataa[0] => op_1.IN5
+dataa[1] => _.IN0
+dataa[1] => op_1.IN3
+dataa[2] => _.IN0
+dataa[2] => op_1.IN1
+datab[0] => _.IN1
+datab[0] => op_1.IN6
+datab[1] => _.IN1
+datab[1] => op_1.IN4
+datab[2] => _.IN1
+datab[2] => op_1.IN2
+
+
