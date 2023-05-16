@@ -1,0 +1,19 @@
+Quartus II Archive log --	C:/DisenoLogico/Ejercicio2_Lab2/Ejercicio2_Lab2.qarlog
+
+Archive:	C:/DisenoLogico/Ejercicio2_Lab2/Ejercicio2_Lab2.qar
+Date:		Tue May 09 18:54:49 2023
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/DisenoLogico/Ejercicio2_Lab2/Deco4a7.vhd
+C:/DisenoLogico/Ejercicio2_Lab2/Ejercicio2_Lab2.qpf
+C:/DisenoLogico/Ejercicio2_Lab2/Ejercicio2_Lab2.qsf
+C:/DisenoLogico/Ejercicio2_Lab2/Ejercicio2_Lab2.vhd
+C:/DisenoLogico/Ejercicio2_Lab2/Waveform.vwf
+C:/DisenoLogico/Ejercicio2_Lab2/db/Ejercicio2_Lab2.sim.vwf
+C:/DisenoLogico/Ejercicio2_Lab2/incremental_db/compiled_partitions/Ejercicio2_Lab2.db_info
+c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
